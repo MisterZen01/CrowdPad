@@ -1,0 +1,46 @@
+D-Pad Controls:
+- !up – D-pad up
+- !left – D-pad left
+- !down – D-pad down
+- !right – D-pad right
+
+Action Buttons:
+- !b – A button
+- !a – B button
+- !y – X button
+- !x – Y button
+
+Shoulder and Thumb Buttons:
+- !ls – Left shoulder button
+- !rs – Right shoulder button
+- !start – Start button
+- !select – Select button
+- !l3 – Left thumb button
+- !r3 – Right thumb button
+
+Trigger Buttons:
+- !lt – Left trigger (full press)
+- !rt – Right trigger (full press)
+
+Joystick Directions:
+- !ljn_ – Left joystick north
+- !ljnw – Left joystick north-west
+- !ljw_ – Left joystick west
+- !ljsw – Left joystick south-west
+- !ljs_ – Left joystick south
+- !ljse – Left joystick south-east
+- !lje_ – Left joystick east
+- !ljne – Left joystick north-east
+- !rjn_ – Right joystick north
+- !rjnw – Right joystick north-west
+- !rjw_ – Right joystick west
+- !rjsw – Right joystick south-west
+- !rjs_ – Right joystick south
+- !rjse – Right joystick south-east
+- !rje_ – Right joystick east
+- !rjne – Right joystick north-east
+
+Hold Time Variations:
+- short – Command will be executed with a short hold time, 0.25 seconds.
+- long – Command will be executed with a long hold time, 3 seconds.
+- None (default) – Command will be executed with a default hold time, 1 second.
