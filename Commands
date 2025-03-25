@@ -40,6 +40,9 @@ Joystick Directions:
 - !rje_ – Right joystick east
 - !rjne – Right joystick north-east
 
+Touch Screen Controls (DS/3DS):
+- !ts x y - Touch Screen X-Coordinates Y-Coordinates
+
 Hold Time Variations:
 - short – Command will be executed with a short hold time, 0.25 seconds.
 - long – Command will be executed with a long hold time, 3 seconds.
