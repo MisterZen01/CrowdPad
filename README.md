@@ -1,4 +1,4 @@
-# YouTube Chat Controller Integration
+# Project CrowdPad
 ### Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -25,7 +25,6 @@ This project uses the `pytchat` and `vgamepad` Python libraries to read messages
 - **DS and 3DS Touch Screen Support**: Additional scripts provide functionality to use the DS and 3DS touch screens by simulating the stylus pen using pyautogui.
 - **Safe Input Management**: After each movement or press, the code uses **controller.update()** to ensure the input registers correctly. Joysticks automatically return to a neutral position after moving.
 - **Expandable Design**: The code is easy to modify. You could add more commands, adjust hold times, or even create custom controller actions by changing the `COMMANDS` dictionary.
-
 
 ## Installation Guide
 Before you begin, ensure you have the following installed:
@@ -59,7 +58,7 @@ video_id = "your_video_id_here"
 ## Usage
 The script listens for chat commands and simulates the corresponding button presses or joystick movements. The commands and their corresponding actions are defined in the COMMANDS dictionary. The list of available commands is viewable in the Commands.txt that can be used in the YouTube live stream chat.
 
-**Example Usage**: In YouTube live chat, a user could type `!up`, which will simulate pressing the D-pad up on the Xbox 360 controller. If a user types `!ljw_`, it will move the left joystick to the west.
+**Example Usage**: In YouTube live chat, a user could type `!up`, which will simulate pressing the D-pad up on the Xbox 360 controller. If a user types `!ljw_`, it will move the left joystick to the west. If a user types `!ts 64 128`, it will simulate using the stylus pen on the DS or 3DS touch screen.
 
 ## Compatibility
 - **DS and 3DS Touch Screen Support**: There's additional scipts labeled DS and 3DS that includes functionality for using the their touch screens by simulating the stylus pen using **pyautogui**.
