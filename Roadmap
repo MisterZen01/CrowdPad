@@ -1,0 +1,6 @@
+Roadmap
+This roadmap outlines the planned features and improvements for YouTube Crowd Control integration. These enhancements aim to expand functionality and improve user experience.
+
+Future Changes (TBA):
+-Have pyautogui or a similar python library be compatible using the touch screen of the DS on retroarch.
+Note: The 3DS is not available on Retroarch so it will have to remain on a standalone emulator until then.
