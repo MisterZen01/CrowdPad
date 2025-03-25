@@ -65,6 +65,8 @@ The script listens for chat commands and simulates the corresponding button pres
 - **Standalone Emulator Support**: It has been tested using the standalone versions of **DeSmuME** for DS emulation and **Citra** for 3DS emulation.
 - **RetroArch Semi-incompatibility**: Vgamepad is fully compatible with Retroarch. The code for the DS and 3DS Touch Screen is **not compatible with RetroArch** due to the lack of external touch screen input support. For best results, use standalone emulators.
 
+Note: When testing `pyautogui` for touchscreen functionality on the DS and 3DS standalone emulators, I used fullscreen mode. *However, the screen size can be adjusted within the script to suit your preferences.* Additionally, the .png grid overlays can be utilized while streaming to help guide viewers in selecting their desired location using X and Y coordinates on the grid.
+
 ## Additional Documentation
 **Libraries Used:**
 - pytchat: https://github.com/taizan-hokuto/pytchat
